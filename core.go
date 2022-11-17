@@ -16,7 +16,7 @@ func Div(a, b int) float64 {
 
 func Pow(a, b int) int {
 	base := a
-	for i := 1; i <= b; i++ {
+	for i := 1; i < b; i++ {
 		a = a * base
 	}
 	return a
